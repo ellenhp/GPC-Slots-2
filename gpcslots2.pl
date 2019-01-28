@@ -1279,7 +1279,7 @@ print color 'reset';
 		or ($titlescreen eq 'WOMEN\'S RIGHTS') or ($titlescreen eq '19TH AMMENDMENT')
 		or ($titlescreen eq 'WOMEN\'S VOTE'))  {
 		newlines();	
-		nowomensrights();
+		nosexism();
 	} elsif (($titlescreen eq '-h') or ($titlescreen eq '--help') or ($titlescreen eq 'help') or ($titlescreen eq 'HELP') or ($titlescreen eq 'h') or ($titlescreen eq 'H')) {
 		newlines();
 		help();
@@ -1388,35 +1388,35 @@ print color 'black';
 	return;
 }
 
-sub nowomensrights {
+sub nosexism {
 print colored('>>>>ABEVTUGFSBEJBZRANYYYVOREGVRFSBEZRA>>>>ABEVTUGFSBEJBZRANYYYVOREGVRFSBEZRA>>>>',"$boldblack on_$bgcblack"); print"\n"; 
-print colored('Just Say No To Women\'s Rights                                                   ',"$boldred on_$bgcblack"); print"\n"; 
-print colored('    Just Say No To Women\'s Rights                                               ',"$red on_$bgcblack"); print"\n"; 
-print colored('        Just Say No To Women\'s Rights                                           ',"$boldred on_$bgcblack"); print"\n"; 
-print colored('            Just Say No To Women\'s Rights                                       ',"$red on_$bgcblack"); print"\n"; 
-print colored('                Just Say No To Women\'s Rights                                   ',"$boldred on_$bgcblack"); print"\n"; 
-print colored('                    Just Say No To Women\'s Rights                               ',"$red on_$bgcblack"); print"\n"; 
-print colored('                        Just Say No To Women\'s Rights                           ',"$boldred on_$bgcblack"); print"\n"; 
-print colored('                            Just Say No To Women\'s Rights                       ',"$red on_$bgcblack"); print"\n"; 
-print colored('                                Just Say No To Women\'s Rights                   ',"$boldred on_$bgcblack"); print"\n"; 
-print colored('                                    Just Say No To Women\'s Rights               ',"$red on_$bgcblack"); print"\n"; 
-print colored('                                        Just Say No To Women\'s Rights           ',"$boldred on_$bgcblack"); print"\n"; 
-print colored('                                            Just Say No To Women\'s Rights       ',"$red on_$bgcblack"); print"\n"; 
-print colored('                                                Just Say No To Women\'s Rights   ',"$boldred on_$bgcblack"); print"\n"; 
-print colored('                                                   Just Say No To Women\'s Rights',"$red on_$bgcblack"); print"\n"; 
-print colored('                                                Just Say No To Women\'s Rights   ',"$boldred on_$bgcblack"); print"\n"; 
-print colored('                                            Just Say No To Women\'s Rights       ',"$red on_$bgcblack"); print"\n"; 
-print colored('                                        Just Say No To Women\'s Rights           ',"$boldred on_$bgcblack"); print"\n"; 
-print colored('                                    Just Say No To Women\'s Rights               ',"$red on_$bgcblack"); print"\n"; 
-print colored('                                Just Say No To Women\'s Rights                   ',"$boldred on_$bgcblack"); print"\n"; 
-print colored('                            Just Say No To Women\'s Rights                       ',"$red on_$bgcblack"); print"\n"; 
-print colored('                        Just Say No To Women\'s Rights                           ',"$boldred on_$bgcblack"); print"\n"; 
-print colored('                    Just Say No To Women\'s Rights                               ',"$red on_$bgcblack"); print"\n"; 
-print colored('                Just Say No To Women\'s Rights                                   ',"$boldred on_$bgcblack"); print"\n"; 
-print colored('            Just Say No To Women\'s Rights                                       ',"$red on_$bgcblack"); print"\n"; 
-print colored('        Just Say No To Women\'s Rights                                           ',"$boldred on_$bgcblack"); print"\n"; 
-print colored('    Just Say No To Women\'s Rights                                               ',"$red on_$bgcblack"); print"\n"; 
-print colored('Just Say No To Women\'s Rights                                                   ',"$boldred on_$bgcblack"); print"\n"; 
+print colored('Just Say No To Sexism                                                            ',"$boldred on_$bgcblack"); print"\n"; 
+print colored('    Just Say No To Sexism                                                        ',"$red on_$bgcblack"); print"\n"; 
+print colored('        Just Say No To Sexism                                                    ',"$boldred on_$bgcblack"); print"\n"; 
+print colored('            Just Say No To Sexism                                                ',"$red on_$bgcblack"); print"\n"; 
+print colored('                Just Say No To Sexism                                            ',"$boldred on_$bgcblack"); print"\n"; 
+print colored('                    Just Say No To Sexism                                        ',"$red on_$bgcblack"); print"\n"; 
+print colored('                        Just Say No To Sexism                                    ',"$boldred on_$bgcblack"); print"\n"; 
+print colored('                            Just Say No To Sexism                                ',"$red on_$bgcblack"); print"\n"; 
+print colored('                                Just Say No To Sexism                            ',"$boldred on_$bgcblack"); print"\n"; 
+print colored('                                    Just Say No To Sexism                        ',"$red on_$bgcblack"); print"\n"; 
+print colored('                                        Just Say No To Sexism                    ',"$boldred on_$bgcblack"); print"\n"; 
+print colored('                                            Just Say No To Sexism                ',"$red on_$bgcblack"); print"\n"; 
+print colored('                                                Just Say No To Sexism            ',"$boldred on_$bgcblack"); print"\n"; 
+print colored('                                                   Just Say No To Sexism         ',"$red on_$bgcblack"); print"\n"; 
+print colored('                                                Just Say No To Sexism            ',"$boldred on_$bgcblack"); print"\n"; 
+print colored('                                            Just Say No To Sexism                ',"$red on_$bgcblack"); print"\n"; 
+print colored('                                        Just Say No To Sexism                    ',"$boldred on_$bgcblack"); print"\n"; 
+print colored('                                    Just Say No To Sexism                        ',"$red on_$bgcblack"); print"\n"; 
+print colored('                                Just Say No To Sexism                            ',"$boldred on_$bgcblack"); print"\n"; 
+print colored('                            Just Say No To Sexism                                ',"$red on_$bgcblack"); print"\n"; 
+print colored('                        Just Say No To Sexism                                    ',"$boldred on_$bgcblack"); print"\n"; 
+print colored('                    Just Say No To Sexism                                        ',"$red on_$bgcblack"); print"\n"; 
+print colored('                Just Say No To Sexism                                            ',"$boldred on_$bgcblack"); print"\n"; 
+print colored('            Just Say No To Sexism                                                ',"$red on_$bgcblack"); print"\n"; 
+print colored('        Just Say No To Sexism                                                    ',"$boldred on_$bgcblack"); print"\n"; 
+print colored('    Just Say No To Sexism                                                        ',"$red on_$bgcblack"); print"\n"; 
+print colored('Just Say No To Sexism                                                            ',"$boldred on_$bgcblack"); print"\n"; 
 print colored('>>>>ABEVTUGFSBEJBZRANYYYVOREGVRFSBEZRA>>>>ABEVTUGFSBEJBZRANYYYVOREGVRFSBEZRA>>>>',"$boldblack on_$bgcblack"); print"\n"; 
 print color 'black';
 	$placeholder = <STDIN>;
